@@ -136,9 +136,9 @@
 
         <!--  JACKALOPE DEPENDENCIES  -->
         <dependency>
-            <groupId>com.tuneit</groupId>
-            <artifactId>dict-it-wiki</artifactId>
-            <version>SNAPSHOT-2.0_02</version>
+            <groupId>com.tuneit.jackalope</groupId>
+            <artifactId>api-lite</artifactId>
+            <version>1.0</version>
         </dependency>
 
     </dependencies>

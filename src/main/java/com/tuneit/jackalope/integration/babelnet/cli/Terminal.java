@@ -1,5 +1,6 @@
 package com.tuneit.jackalope.integration.babelnet.cli;
 
+import com.tuneit.jackalope.api.Jackalope;
 import com.tuneit.jackalope.utils.annotation.GroovyAccessible;
 import it.uniroma1.lcl.babelnet.BabelNet;
 import org.springframework.beans.BeansException;
@@ -34,10 +35,8 @@ public class Terminal implements ApplicationContextAware {
     /*  Terminal functions  */
     /*                      */
 
-    @Autowired
-    private BabelNet bn;
-
-    // TODO add jackalope
+    @Autowired private BabelNet bn;
+    @Autowired private Jackalope jack;
 
     // test methods here...
 
