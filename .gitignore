@@ -7,8 +7,23 @@ hs_err_pid*
 /bin/
 .idea
 *.iml
+*.iws
 **/target
+target/
 *.log
+.project
+.classpath
+.settings/
+out/
+.gradle/
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+.DS_Store
+Thumbs.db
+licenses/
+resources/
 
 /src/main/webapp/WEB-INF/classes/.netbeans_automatic_build
 /src/main/webapp/WEB-INF/classes/src/
